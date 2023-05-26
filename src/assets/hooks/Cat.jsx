@@ -19,7 +19,7 @@ const CambiarDatos = () => {
     </div>
    )
 }
-
+ 
     const handleButton = () => {
         setCat({...cat, edad:cat.edad +1})
     }
