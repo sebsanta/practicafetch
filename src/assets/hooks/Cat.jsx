@@ -5,7 +5,7 @@ const Cat = () => {
     const[cat, setCat] = useState({nombre: 'Gringuito', edad:10});
     const [cambio, setCambio] = useState(true);
 
-
+   
 //componente boton que va a generar el cambio de lado de los elementos
 const CambiarDatos = () => {
     const handleCambio = () => {
